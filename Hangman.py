@@ -51,6 +51,7 @@ while True:
                 word_hidden[index[i]] = userInput
             #checks if the word is guessed, by checking if "*" doesn't exist in the list
             if "*" not in word_hidden:
+                score+=1
                 running = False
             #breaks if the word is guessed
             if running == False:
